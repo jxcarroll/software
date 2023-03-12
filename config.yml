@@ -1,0 +1,31 @@
+baseURL: "https://jxcarroll.github.io"
+languageCode: en-us
+title: software documentation
+theme: PaperMod
+
+params:
+  homeInforParams:
+    Title: Jazmine | Akira
+    Content: This is my static site using Hugo!
+
+  socialIcons:
+    -name: "wordpress"
+    url: "https://akirazsite.wordpress.com/"
+ 
+
+menu:
+  main:
+    - identifier: categories
+      name: categories
+      url: /categories/
+      weight: 10
+    - identifier: wordpress
+      name: wordpress
+      url: /wordpress.md/
+      weight: 20
+   
+    
+ 
+    
+   
+    
